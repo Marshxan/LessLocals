@@ -1,18 +1,18 @@
--- This Number Can **NOT** Go Above **1.0**
-DensityVehicle = 0.1
-DensityPed = 0.6
-DensityRandomVeh = 0.1
-DensityParkedVeh = 0.7
-DensityScenario = 0.9
--- This Number Can **NOT** Go Above **1.0**
+-- These Number Can **NOT** Go Above **1.0**
+MarshyVehicle = 0.1
+MarshyPed = 0.6
+MarshyRandomVeh = 0.1
+MarshyParkedVeh = 0.7
+MarshyScenario = 0.9
+-- These Number Can **NOT** Go Above **1.0**
 
 Citizen.CreateThread(function()
 	while true do
 	    Citizen.Wait(0)
-	    SetVehicleDensityMultiplierThisFrame(DensityVehicle)
-	    SetPedDensityMultiplierThisFrame(DensityPed)
-	    SetRandomVehicleDensityMultiplierThisFrame(DensityRandomVeh)
-	    SetParkedVehicleDensityMultiplierThisFrame(DensityParkedVeh)
-	    SetScenarioPedDensityMultiplierThisFrame(DensityScenario, DensityScenario)
+	    SetVehicleDensityMultiplierThisFrame(MarshyVehicle)
+	    SetPedDensityMultiplierThisFrame(MarshyPed)
+	    SetRandomVehicleDensityMultiplierThisFrame(MarshyRandomVeh)
+	    SetParkedVehicleDensityMultiplierThisFrame(ParkedVeh)
+	    SetScenarioPedDensityMultiplierThisFrame(MarshyScenario, MarshyScenario)
 	end
 end)
