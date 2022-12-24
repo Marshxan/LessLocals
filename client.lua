@@ -12,7 +12,7 @@ Citizen.CreateThread(function()
 	    SetVehicleDensityMultiplierThisFrame(MarshyVehicle)
 	    SetPedDensityMultiplierThisFrame(MarshyPed)
 	    SetRandomVehicleDensityMultiplierThisFrame(MarshyRandomVeh)
-	    SetParkedVehicleDensityMultiplierThisFrame(ParkedVeh)
+	    SetParkedVehicleDensityMultiplierThisFrame(MarshyParkedVeh)
 	    SetScenarioPedDensityMultiplierThisFrame(MarshyScenario, MarshyScenario)
 	end
 end)
